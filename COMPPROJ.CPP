@@ -1,8 +1,8 @@
+#include<stdio.h>
 #include<fstream.h>
 #include<ctype.h>
 #include<iomanip.h>
 #include<conio.h>
-#include<stdio.h>
 #include<process.h>
 
 class account
@@ -25,7 +25,7 @@ class account
 
 void account::create_account()
 {
-	cout<<"\nEnter the account no. : ";
+	cout<<"\nEnter the account number : ";
 	cin>>acno;
 	cout<<"\nEnter the name of the account holder : ";
 	gets(name);
@@ -35,7 +35,7 @@ void account::create_account()
 	cout<<"\nEnter the initial amount";
 	cout<<"\n(>=500 for Saving and >=1000 for current ) : ";
 	cin>>deposit;
-	cout<<"\n\n\nACCOUNTCREATED!..";
+	cout<<"\n\n\nACCOUNTCREATED!...";
 }
 
 void account::show_account()
